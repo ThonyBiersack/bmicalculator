@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <title>Calculator BMI</title>
+</head>
+<body>
+    <div id="content-wrap">
+        <h1>Hitung berat badan ideal</h1>
+            <label for="tinggi">
+                Masukan tinggi badan kamu!!!
+            </label> <br>
+                <input type="number" id="ipt_t">
+               <br><br>
+            <label for="berat-badan">
+                Masukan berat badan kamu!!!
+            </label><br>
+                <input type="number" id="ipt_b">
+            <br><br>
+            <button onclick="hitung()">Hitung</button>
+
+            <p id="bmi">Hasil perhitungan BMI :</p>
+            <p>Keterangan :</p>
+                    
+            <p id="keterangan"></p>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
